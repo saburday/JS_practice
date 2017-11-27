@@ -6,10 +6,29 @@
   z-index: 5;
 }
 
-.menu-item .submenu {
+#tabs .whiteborder {
   width: 120px;
   height: 40px;
   background: green;
   position: absolute;
   cursor: pointer;
+}
+
+#tabs .tabContent {
+  width: 300px;
+  height: 60px;
+  border: 1px solid #707070;
+  position: relative;
+  top: -1px
+  z-index: 1;
+  padding: 10px;
+  border-radius: 0 0 3px 3px;
+}
+
+#tabes .hide{
+  display: none;
+}
+
+#tabes .show {
+  display: block;
 }
