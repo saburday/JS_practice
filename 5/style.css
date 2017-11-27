@@ -1,8 +1,9 @@
-.menu-item {
-  border:2px solid #66CDAA;
+#tabs .tab {
   display: inline-block;
-  position: relative;
+  padding: 5px 10px;
   cursor: pointer;
+  position: relative;
+  z-index: 5;
 }
 
 .menu-item .submenu {
